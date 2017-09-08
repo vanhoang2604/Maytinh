@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <TextView
+            android:layout_weight="1"
+            android:background="#008B45"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Các kiểu lập trình sự kiện"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Số a: " />
+
+        <EditText
+            android:id="@+id/edtsoa"
+            android:layout_weight="2"
+            android:hint="Số a" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Số b: " />
+
+        <EditText
+            android:id="@+id/edtsob"
+            android:layout_weight="2"
+            android:hint="Số b" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txtkq"
+            android:layout_weight="1"
+            android:background="#008B45"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+    </TableRow>
+
+    <Button
+        android:id="@+id/btntong2so"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btn_tong2so"
+        android:text="Tổng 2 số (Onclick in XML)  " />
+
+    <Button
+        android:id="@+id/btntong2so2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng 2 số (Anonymous listener )  " />
+
+    <Button
+        android:id="@+id/btntong2so3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tổng 2 số (Activity is listener )  " />
+
+</TableLayout>
